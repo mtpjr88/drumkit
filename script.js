@@ -5,7 +5,7 @@ function playSound(e) {
   audio.currentTime = 0; // allows the sound to start again or repeat when pressed
   audio.play();
   key.classList.add('playing'); // adds animation from  my css
-  console.log(audio);
+  
 };
 
 	// Onclick functions
